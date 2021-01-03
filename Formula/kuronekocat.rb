@@ -2,16 +2,16 @@
 class Kuronekocat < Formula
   desc "Kuroneko Yamato Tracking Wrapper Tool"
   homepage "https://github.com/anatofuz/kuronekocat"
-  version "1.0.1"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/AnaTofuZ/kuronekocat/releases/download/v1.0.1/kuronekocat_1.0.1_Darwin_x86_64.tar.gz"
-    sha256 "856d3946c440b9bb77b3a97892d562a218701d0e3d88c1ca38a60345a40c6749"
+    url "https://github.com/AnaTofuZ/kuronekocat/releases/download/v1.1.0/kuronekocat_1.1.0_Darwin_x86_64.tar.gz"
+    sha256 "7ce9d9ef7e847a7c14a0f3ab2d11810a49ab1a3159a0cc97f5eed683dfcbf24a"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/AnaTofuZ/kuronekocat/releases/download/v1.0.1/kuronekocat_1.0.1_Linux_x86_64.tar.gz"
-    sha256 "925c7558c06093cf9a92f1e50adc5d76556d508866f0ac02d10a98b8cc56f511"
+    url "https://github.com/AnaTofuZ/kuronekocat/releases/download/v1.1.0/kuronekocat_1.1.0_Linux_x86_64.tar.gz"
+    sha256 "c043e177e052560322889e6a61d1710eb8c3069472e85941cc3d2c7e56b0c0f1"
   end
 
   def install
